@@ -1,0 +1,19 @@
+.movie-item {
+    display: flex;
+    flex-direction: column;
+    background-color: #00000042;
+    border-radius: 4px;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.movie-item .movie-title,
+.movie-item .movie-director-year,
+.movie-item .movie-description {
+    flex: 1;
+    align-self: center;
+}
+
+.movie-item .movie-title {
+    font-weight: bold;
+}
